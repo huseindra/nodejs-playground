@@ -5,14 +5,20 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start-server":"node app.js"
-    
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
   "keywords": [
     "nodejs",
     "playground"
   ],
   "author": "Husein Indra Kusuma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }

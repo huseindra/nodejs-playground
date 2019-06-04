@@ -1,3 +1,3 @@
-#Create node js in local server
+# Create node js in local server
 
-a simple local server using node js. Joy it !
+a simple local server using express js. Joy it !
